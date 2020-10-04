@@ -27,7 +27,7 @@ public class MainActivity2 extends AppCompatActivity {
         String jurusan = getIntent().getStringExtra(EXTRA_JURUSAN);
 
 
-        String text = "Nama : " + name + ",\nNim : " + nim + ",\nTanggal Lahir : " + date + ",\nJenis Kelamin : "+ gender + ",\nJurusan : " + jurusan;
+        String text = "Nama : " + name + "\nNim : " + nim + "\nTanggal Lahir : " + date + "\nJenis Kelamin : "+ gender + "\nJurusan : " + jurusan;
         tvDataReceived.setText(text);
     }
 }
